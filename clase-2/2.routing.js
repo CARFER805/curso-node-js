@@ -1,4 +1,3 @@
-/* eslint-disable semi */
 const http = require('node:http');
 
 // commonJS ---> modulos clasicos de node
