@@ -1,1 +1,12 @@
- GET http://localhost:1234/pokemon/ditto
+### Recuperar informacion de una Api Pokemon Ditto
+GET http://localhost:1234/pokemon/ditto
+
+### Para crear un Pokemon
+POST  http://localhost:1234/pokemon
+Content-type: application/json
+
+    {
+    "name":"ditto",
+    "type": "normal",
+    "moves": ["transform"]
+    }
